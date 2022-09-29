@@ -23,3 +23,8 @@ body {
   background: #8099ff;
   opacity: 0.001;
 }
+
+.demo-list-item {
+  width: 300px;
+}
+
