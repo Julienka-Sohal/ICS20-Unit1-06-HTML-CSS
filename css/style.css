@@ -1,0 +1,25 @@
+/* Created by: Julienka Sohal
+ * Created on: Sept 2022
+ * Style for css
+*/
+body {
+  background-color: cornflowerblue;
+}
+
+.mdl-layout__header-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #8099ff;
+  opacity: 0.001;
+}
